@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Dispatch to jb-sidequest-evaluator-usecase2
         env:
-          TOKEN: ${{ secrets.JUDGE_DISPATCH_TOKEN }}
+          TOKEN: ${{ secrets.EVALUATOR_TOKEN }}
         run: |
           curl -sS -f -X POST \
             -H "Authorization: token ${TOKEN}" \
