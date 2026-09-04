@@ -1,0 +1,51 @@
+client_id,country,risk_rating,client_type,relationship_years
+C2000,UAE,Medium,Individual,13.0
+C2001,Singapore,Low,Individual,3.1
+C2002,Singapore,Medium,Individual,11.5
+C2003,Switzerland,Low,Corporate,12.1
+C2004,UK,High,Corporate,0.8
+C2005,UAE,High,Family Office,12.7
+C2006,Singapore,Medium,Individual,12.1
+C2007,Hong Kong,Medium,Individual,5.8
+C2008,Hong Kong,High,Individual,6.6
+C2009,Singapore,Medium,Family Office,7.5
+C2010,Singapore,Low,Individual,11.3
+C2011,Singapore,Medium,Corporate,2.2
+C2012,UAE,Medium,Individual,7.2
+C2013,UAE,Low,Family Office,2.6
+C2014,Hong Kong,High,Individual,15.9
+C2015,Hong Kong,Medium,Individual,6.2
+C2016,Singapore,Medium,Corporate,1.0
+C2017,UK,Medium,Corporate,12.5
+C2018,UK,Medium,Individual,13.5
+C2019,Hong Kong,Medium,Individual,7.1
+C2020,Singapore,Medium,Individual,3.9
+C2021,Singapore,High,Individual,13.4
+C2022,Hong Kong,Low,Individual,8.7
+C2023,UK,Medium,Individual,7.7
+C2024,UAE,Medium,Individual,4.6
+C2025,Singapore,Low,Corporate,1.9
+C2026,Switzerland,Medium,Individual,6.9
+C2027,Singapore,Low,Individual,3.2
+C2028,Singapore,Medium,Family Office,2.3
+C2029,Hong Kong,Low,Corporate,4.9
+C2030,Singapore,Medium,Individual,9.6
+C2031,UAE,Medium,Individual,4.9
+C2032,Switzerland,High,Corporate,2.7
+C2033,Switzerland,High,Corporate,10.6
+C2034,Switzerland,Medium,Family Office,0.6
+C2035,Switzerland,Low,Corporate,8.6
+C2036,Switzerland,Medium,Individual,8.3
+C2037,UK,High,Corporate,3.1
+C2038,Singapore,Low,Corporate,1.2
+C2039,Singapore,High,Individual,2.5
+C2040,Singapore,Medium,Corporate,14.1
+C2041,Switzerland,Low,Corporate,4.7
+C2042,Hong Kong,Medium,Individual,15.4
+C2043,Hong Kong,Medium,Individual,1.4
+C2044,Singapore,High,Individual,2.7
+C2045,Switzerland,Medium,Corporate,15.1
+C2046,Singapore,Low,Individual,10.4
+C2047,UAE,High,Individual,13.6
+C2048,Singapore,Medium,Corporate,4.7
+C2049,UK,Medium,Family Office,9.6

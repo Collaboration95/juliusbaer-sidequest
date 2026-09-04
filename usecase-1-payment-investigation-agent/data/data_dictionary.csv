@@ -1,0 +1,15 @@
+file,field,description
+clients.csv,client_id,Unique synthetic client ID (e.g. C2000)
+clients.csv,country,Client relationship country — determines which regional policy applies
+clients.csv,risk_rating,"Client risk rating: Low, Medium or High"
+clients.csv,client_type,"Individual, Corporate or Family Office"
+clients.csv,relationship_years,Relationship duration in years
+payments.csv,payment_id,Unique payment ID (e.g. P50000)
+payments.csv,client_id,Initiating client — links to clients.csv
+payments.csv,beneficiary_name,Beneficiary name
+payments.csv,beneficiary_country,Human-readable beneficiary country name (may not match code — see DATA_NOTES.md)
+payments.csv,beneficiary_country_code,Synthetic ISO-style code — AUTHORITATIVE field for jurisdiction risk checks (e.g. AE = high-risk)
+payments.csv,amount,Payment amount in stated currency
+payments.csv,currency,Payment currency (USD, CHF, SGD, HKD, or GBP)
+payments.csv,channel,Payment channel (Branch, Online, or RM-assisted)
+payments.csv,payment_date,Calendar date in YYYY-MM-DD format — no time component (see DATA_NOTES.md)

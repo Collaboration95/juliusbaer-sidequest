@@ -1,0 +1,7 @@
+Payments are intermittently failing after yesterday's deployment 
+
+Identify the probable root cause with supporting evidence.
+
+Identify impacted components and recommended remediation .
+
+What is the mean time to recover and the systems impacted.

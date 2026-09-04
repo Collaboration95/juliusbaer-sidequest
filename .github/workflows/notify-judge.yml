@@ -1,0 +1,31 @@
+name: Notify judge repo
+
+# Ping-only - fires a repository_dispatch at jb-sidequest-judge whenever
+# a usecase-2 submission changes, so it can rescore promptly instead of
+# waiting on its own polling schedule. No judging, scoring, or checkout
+# happens here - this workflow never reads submission content, it just
+# tells the other repo "something changed, go look."
+# See https://github.com/prithadas0301/jb-sidequest-judge
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "usecase-2-production-incident-investigator/submissions/**"
+
+permissions: {}
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Dispatch to jb-sidequest-judge
+        env:
+          TOKEN: ${{ secrets.JUDGE_DISPATCH_TOKEN }}
+        run: |
+          curl -sS -f -X POST \
+            -H "Authorization: token ${TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/prithadas0301/jb-sidequest-judge/dispatches \
+            -d '{"event_type":"new-submission"}'

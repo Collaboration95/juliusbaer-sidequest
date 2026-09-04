@@ -1,0 +1,50 @@
+name: Request Evaluation
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+permissions:
+  contents: read
+
+jobs:
+  request-evaluation:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Request evaluation
+        env:
+          GH_TOKEN: ${{ secrets.EVALUATOR_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          CANDIDATE: ${{ github.event.pull_request.user.login }}
+
+        run: |
+          echo "Requesting evaluation"
+          echo "Repository: $REPOSITORY"
+          echo "PR: $PR_NUMBER"
+          echo "SHA: $HEAD_SHA"
+          echo "Candidate: $CANDIDATE"
+
+          curl \
+            --fail \
+            --request POST \
+            --url https://api.github.com/repos/lalit-aggarwal/payment-investigation-evaluator/dispatches \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data "{
+              \"event_type\": \"evaluate-submission\",
+              \"client_payload\": {
+                \"repository\": \"$REPOSITORY\",
+                \"pr_number\": $PR_NUMBER,
+                \"head_sha\": \"$HEAD_SHA\",
+                \"candidate\": \"$CANDIDATE\"
+              }
+            }"

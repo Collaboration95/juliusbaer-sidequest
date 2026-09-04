@@ -1,0 +1,75 @@
+[
+  {
+    "question_id": "Q01",
+    "payment_id": "P50000",
+    "question": "Should P50000 require enhanced review? Explain using policy.",
+    "answer": "P50000 is a USD 12,000 payment to beneficiary_country_code SG (not a high-risk jurisdiction). The amount is below the USD 100,000 global enhanced-review threshold. The client C2000 is based in UAE with a Medium risk rating. No enhanced review is required based on amount or destination. Standard monitoring applies.",
+    "citations": [
+      "global_payment_policy.md"
+    ],
+    "facts": {
+      "amount": 12000.0,
+      "currency": "USD",
+      "beneficiary_country_code": "SG",
+      "client_id": "C2000",
+      "client_country": "UAE",
+      "client_risk_rating": "Medium"
+    },
+    "tools_used": [
+      "get_payment",
+      "get_client_profile",
+      "search_policy"
+    ]
+  },
+  {
+    "question_id": "Q02",
+    "payment_id": "P50001",
+    "question": "What review requirement applies to P50001 and why?",
+    "answer": "P50001 is a USD 125,000 payment to beneficiary_country_code AE, which is a high-risk jurisdiction. The amount exceeds the USD 100,000 global enhanced-review threshold. The client C2001 is based in Singapore, where the regional procedure also requires enhanced review above USD 100,000 and RM review above USD 75,000. Both enhanced review and additional review (high-risk destination) are required.",
+    "citations": [
+      "global_payment_policy.md",
+      "high_risk_jurisdictions.md",
+      "regional_singapore.md"
+    ],
+    "facts": {
+      "amount": 125000.0,
+      "currency": "USD",
+      "beneficiary_country_code": "AE",
+      "client_id": "C2001",
+      "client_country": "Singapore"
+    },
+    "tools_used": [
+      "get_payment",
+      "get_client_profile",
+      "search_policy"
+    ]
+  },
+  {
+    "question_id": "Q04",
+    "payment_id": "P50003",
+    "question": "Does the data show a possible transaction-splitting pattern for C2003? Explain.",
+    "answer": "Yes, the data shows a possible structuring pattern. Client C2003 made 3 payments to the same beneficiary (Northstar Trading) on 2026-04-11: P50003 (45,000 CHF), P50180 (35,000 CHF), and P50181 (30,000 CHF). The combined total is 110,000 CHF, which exceeds the USD 100,000 equivalent structuring threshold in the global policy. Each individual payment is below all review thresholds. The payments used different channels (Branch, Online, RM-assisted), which is consistent with structuring behavior. This is an observed fact pattern, not proof of intent. Per the Switzerland regional procedure, potential structuring should be escalated to Compliance.",
+    "citations": [
+      "global_payment_policy.md",
+      "regional_switzerland.md"
+    ],
+    "facts": {
+      "client_id": "C2003",
+      "beneficiary_name": "Northstar Trading",
+      "payment_date": "2026-04-11",
+      "payment_ids": ["P50003", "P50180", "P50181"],
+      "individual_amounts": [45000.0, 35000.0, 30000.0],
+      "combined_amount": 110000.0,
+      "currency": "CHF",
+      "channels": ["Branch", "Online", "RM-assisted"],
+      "threshold": 100000
+    },
+    "tools_used": [
+      "get_payment",
+      "get_client_profile",
+      "get_client_payments",
+      "aggregate_beneficiary_24h",
+      "search_policy"
+    ]
+  }
+]

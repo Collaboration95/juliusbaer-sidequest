@@ -1,0 +1,5 @@
+# Deps for use case 2's solution.py (and your own script to run it).
+numpy==2.1.2
+pandas==2.2.3
+scikit-learn==1.5.2
+sortedcontainers==2.4.0

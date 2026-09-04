@@ -1,0 +1,8 @@
+# Force LF for all text files, regardless of the committer's or CI
+# runner's platform/autocrlf setting. Without this, a Windows checkout
+# with core.autocrlf=true silently rewrites working-tree files to CRLF,
+# which then diverges from the LF bytes actually stored in the commit -
+# and scoring/PROTECTED_MANIFEST.json is a sha256 of committed bytes, not
+# of whatever a given machine's checkout happens to produce. This file is
+# what makes hashing deterministic across platforms.
+* text=lf

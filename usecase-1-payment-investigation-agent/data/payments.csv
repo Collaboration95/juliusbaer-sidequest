@@ -1,0 +1,185 @@
+payment_id,client_id,beneficiary_name,beneficiary_country,beneficiary_country_code,amount,currency,channel,payment_date
+P50000,C2000,Redwood Services,UK,SG,12000.0,USD,Branch,2026-01-23
+P50001,C2001,Desert Star LLC,UAE,AE,125000.0,USD,Branch,2026-05-11
+P50002,C2002,Pacific Holdings,Hong Kong,AE,85000.0,USD,Branch,2026-04-27
+P50003,C2003,Northstar Trading,Singapore,CH,45000.0,CHF,Branch,2026-04-11
+P50004,C2003,Redwood Services,UK,CH,48000.0,CHF,RM-assisted,2026-01-26
+P50005,C2003,Pacific Holdings,UAE,AE,47000.0,CHF,Online,2026-02-18
+P50006,C2023,Pacific Holdings,Hong Kong,HK,24110.41,SGD,RM-assisted,2026-01-19
+P50007,C2014,Redwood Services,UK,GB,5941.42,GBP,Online,2026-07-21
+P50008,C2038,Northstar Trading,Singapore,SG,1976.36,HKD,Branch,2026-05-02
+P50009,C2002,Redwood Services,UK,GB,167436.16,HKD,Online,2026-06-12
+P50010,C2016,Redwood Services,UK,GB,13433.87,USD,Branch,2026-06-06
+P50011,C2016,Desert Star LLC,UAE,AE,8190.77,HKD,Online,2026-06-16
+P50012,C2008,Desert Star LLC,UAE,AE,17561.38,GBP,RM-assisted,2026-06-18
+P50013,C2032,Alpine Consulting,Switzerland,CH,23886.8,HKD,Online,2026-05-06
+P50014,C2006,Pacific Holdings,Hong Kong,HK,17778.48,SGD,Branch,2026-01-25
+P50015,C2017,Northstar Trading,Singapore,SG,261719.84,CHF,RM-assisted,2026-07-20
+P50016,C2022,Redwood Services,UK,GB,50850.97,SGD,Online,2026-02-21
+P50017,C2045,Northstar Trading,Singapore,SG,10082.3,CHF,Online,2026-06-01
+P50018,C2025,Redwood Services,UK,GB,24753.05,SGD,Branch,2026-05-04
+P50019,C2004,Alpine Consulting,Switzerland,CH,49198.14,GBP,Online,2026-01-25
+P50020,C2004,Redwood Services,UK,GB,12433.58,SGD,RM-assisted,2026-04-27
+P50021,C2043,Redwood Services,UK,GB,11602.88,HKD,Online,2026-07-25
+P50022,C2000,Alpine Consulting,Switzerland,CH,48585.48,SGD,Branch,2026-06-23
+P50023,C2039,Alpine Consulting,Switzerland,CH,6037.04,GBP,RM-assisted,2026-01-08
+P50024,C2032,Pacific Holdings,Hong Kong,HK,46275.54,SGD,RM-assisted,2026-01-23
+P50025,C2040,Alpine Consulting,Switzerland,CH,10102.97,HKD,Online,2026-02-01
+P50026,C2045,Desert Star LLC,UAE,AE,47489.35,SGD,Branch,2026-07-24
+P50027,C2030,Northstar Trading,Singapore,SG,22539.4,GBP,Online,2026-03-13
+P50028,C2001,Pacific Holdings,Hong Kong,HK,6349.17,SGD,Online,2026-04-23
+P50029,C2011,Northstar Trading,Singapore,SG,6636.79,USD,RM-assisted,2026-01-22
+P50030,C2024,Desert Star LLC,UAE,AE,5840.4,HKD,Branch,2026-04-02
+P50031,C2000,Pacific Holdings,Hong Kong,HK,11188.36,USD,Online,2026-05-18
+P50032,C2036,Desert Star LLC,UAE,AE,14481.06,CHF,Online,2026-04-26
+P50033,C2048,Redwood Services,UK,GB,9344.82,HKD,Online,2026-02-13
+P50034,C2014,Pacific Holdings,Hong Kong,HK,11059.97,GBP,RM-assisted,2026-04-25
+P50035,C2041,Desert Star LLC,UAE,AE,20694.22,CHF,Online,2026-06-19
+P50036,C2048,Northstar Trading,Singapore,SG,11513.62,SGD,Online,2026-02-02
+P50037,C2039,Pacific Holdings,Hong Kong,HK,4969.42,SGD,Online,2026-07-18
+P50038,C2028,Pacific Holdings,Hong Kong,HK,30419.17,CHF,Online,2026-03-08
+P50039,C2009,Alpine Consulting,Switzerland,CH,30431.98,HKD,Online,2026-01-21
+P50040,C2014,Alpine Consulting,Switzerland,CH,39897.74,HKD,Branch,2026-07-03
+P50041,C2024,Redwood Services,UK,GB,31622.04,GBP,Branch,2026-06-25
+P50042,C2003,Desert Star LLC,UAE,AE,72794.74,HKD,Branch,2026-04-18
+P50043,C2015,Alpine Consulting,Switzerland,CH,52386.56,USD,Online,2026-06-19
+P50044,C2011,Redwood Services,UK,GB,29609.21,CHF,Branch,2026-04-13
+P50045,C2041,Alpine Consulting,Switzerland,CH,397855.02,SGD,RM-assisted,2026-01-11
+P50046,C2009,Alpine Consulting,Switzerland,CH,23640.51,SGD,RM-assisted,2026-02-07
+P50047,C2037,Pacific Holdings,Hong Kong,HK,28733.78,SGD,Online,2026-07-15
+P50048,C2014,Northstar Trading,Singapore,SG,69964.36,GBP,Branch,2026-07-14
+P50049,C2002,Northstar Trading,Singapore,SG,2222.65,HKD,RM-assisted,2026-06-25
+P50050,C2015,Pacific Holdings,Hong Kong,HK,10360.59,USD,RM-assisted,2026-03-11
+P50051,C2041,Pacific Holdings,Hong Kong,HK,11572.49,GBP,RM-assisted,2026-03-24
+P50052,C2022,Northstar Trading,Singapore,SG,4952.91,SGD,RM-assisted,2026-01-14
+P50053,C2015,Redwood Services,UK,GB,32850.63,CHF,RM-assisted,2026-04-07
+P50054,C2027,Northstar Trading,Singapore,SG,40617.49,USD,RM-assisted,2026-07-08
+P50055,C2038,Alpine Consulting,Switzerland,CH,34545.03,HKD,Branch,2026-05-20
+P50056,C2010,Desert Star LLC,UAE,AE,16366.45,SGD,Online,2026-01-14
+P50057,C2014,Desert Star LLC,UAE,AE,13571.32,CHF,Online,2026-03-20
+P50058,C2018,Redwood Services,UK,GB,65821.37,GBP,RM-assisted,2026-07-11
+P50059,C2012,Alpine Consulting,Switzerland,CH,12328.58,USD,Branch,2026-03-23
+P50060,C2030,Redwood Services,UK,GB,33720.61,CHF,Online,2026-06-09
+P50061,C2023,Pacific Holdings,Hong Kong,HK,21391.94,SGD,Online,2026-04-27
+P50062,C2040,Pacific Holdings,Hong Kong,HK,13500.11,HKD,Branch,2026-07-09
+P50063,C2044,Alpine Consulting,Switzerland,CH,29060.86,USD,Branch,2026-07-03
+P50064,C2015,Desert Star LLC,UAE,AE,10588.13,CHF,RM-assisted,2026-07-03
+P50065,C2031,Pacific Holdings,Hong Kong,HK,15782.15,CHF,Branch,2026-02-17
+P50066,C2006,Pacific Holdings,Hong Kong,HK,48331.71,HKD,Branch,2026-03-24
+P50067,C2006,Pacific Holdings,Hong Kong,HK,46819.01,CHF,RM-assisted,2026-06-21
+P50068,C2003,Redwood Services,UK,GB,23714.57,GBP,RM-assisted,2026-05-01
+P50069,C2001,Alpine Consulting,Switzerland,CH,7008.22,HKD,Online,2026-04-19
+P50070,C2000,Alpine Consulting,Switzerland,CH,8831.88,GBP,Branch,2026-06-01
+P50071,C2012,Pacific Holdings,Hong Kong,HK,8967.61,CHF,RM-assisted,2026-01-22
+P50072,C2015,Northstar Trading,Singapore,SG,15706.58,USD,Branch,2026-05-27
+P50073,C2027,Pacific Holdings,Hong Kong,HK,42675.89,SGD,RM-assisted,2026-04-21
+P50074,C2002,Desert Star LLC,UAE,AE,34671.03,USD,RM-assisted,2026-03-05
+P50075,C2032,Redwood Services,UK,GB,24778.91,GBP,Branch,2026-07-19
+P50076,C2018,Northstar Trading,Singapore,SG,4679.95,HKD,Online,2026-06-07
+P50077,C2018,Alpine Consulting,Switzerland,CH,33631.52,HKD,Online,2026-06-22
+P50078,C2041,Pacific Holdings,Hong Kong,HK,63624.95,SGD,RM-assisted,2026-02-05
+P50079,C2020,Northstar Trading,Singapore,SG,11689.1,HKD,RM-assisted,2026-05-15
+P50080,C2017,Pacific Holdings,Hong Kong,HK,5999.19,USD,Online,2026-01-14
+P50081,C2030,Alpine Consulting,Switzerland,CH,32327.46,CHF,Branch,2026-01-05
+P50082,C2016,Pacific Holdings,Hong Kong,HK,26531.94,CHF,RM-assisted,2026-01-05
+P50083,C2000,Redwood Services,UK,GB,67915.99,CHF,Branch,2026-05-03
+P50084,C2001,Northstar Trading,Singapore,SG,6942.17,HKD,Online,2026-03-25
+P50085,C2025,Pacific Holdings,Hong Kong,HK,14380.2,USD,Online,2026-03-04
+P50086,C2036,Northstar Trading,Singapore,SG,28602.18,GBP,Branch,2026-06-25
+P50087,C2027,Northstar Trading,Singapore,SG,7758.56,GBP,RM-assisted,2026-03-09
+P50088,C2047,Pacific Holdings,Hong Kong,HK,20397.29,CHF,RM-assisted,2026-05-20
+P50089,C2009,Northstar Trading,Singapore,SG,11265.55,SGD,RM-assisted,2026-07-14
+P50090,C2020,Pacific Holdings,Hong Kong,HK,45891.28,USD,RM-assisted,2026-05-04
+P50091,C2011,Northstar Trading,Singapore,SG,23878.32,CHF,RM-assisted,2026-02-13
+P50092,C2002,Redwood Services,UK,GB,69173.03,HKD,RM-assisted,2026-07-13
+P50093,C2046,Alpine Consulting,Switzerland,CH,20220.21,CHF,Online,2026-01-19
+P50094,C2013,Redwood Services,UK,GB,33166.89,SGD,RM-assisted,2026-03-07
+P50095,C2027,Desert Star LLC,UAE,AE,12670.92,CHF,Branch,2026-03-16
+P50096,C2027,Northstar Trading,Singapore,SG,15654.38,SGD,RM-assisted,2026-03-20
+P50097,C2048,Desert Star LLC,UAE,AE,8928.25,USD,Online,2026-06-10
+P50098,C2005,Redwood Services,UK,GB,17091.75,HKD,RM-assisted,2026-07-18
+P50099,C2016,Pacific Holdings,Hong Kong,HK,23075.34,HKD,Branch,2026-03-26
+P50100,C2006,Desert Star LLC,UAE,AE,7493.19,USD,Online,2026-01-19
+P50101,C2001,Desert Star LLC,UAE,AE,57478.75,SGD,Online,2026-05-05
+P50102,C2007,Pacific Holdings,Hong Kong,HK,67577.5,CHF,Online,2026-04-19
+P50103,C2018,Desert Star LLC,UAE,AE,15717.18,GBP,RM-assisted,2026-02-25
+P50104,C2034,Desert Star LLC,UAE,AE,21899.75,CHF,Online,2026-04-09
+P50105,C2029,Alpine Consulting,Switzerland,CH,8995.87,USD,RM-assisted,2026-01-20
+P50106,C2011,Alpine Consulting,Switzerland,CH,43105.36,SGD,Online,2026-04-02
+P50107,C2008,Northstar Trading,Singapore,SG,8234.33,USD,Branch,2026-01-12
+P50108,C2009,Northstar Trading,Singapore,SG,37091.47,GBP,RM-assisted,2026-06-25
+P50109,C2003,Pacific Holdings,Hong Kong,HK,23666.73,USD,RM-assisted,2026-07-15
+P50110,C2037,Alpine Consulting,Switzerland,CH,2387.05,HKD,RM-assisted,2026-06-16
+P50111,C2042,Desert Star LLC,UAE,AE,9177.35,HKD,RM-assisted,2026-02-25
+P50112,C2009,Alpine Consulting,Switzerland,CH,17973.93,SGD,Branch,2026-02-15
+P50113,C2034,Northstar Trading,Singapore,SG,4080.53,GBP,RM-assisted,2026-02-18
+P50114,C2033,Northstar Trading,Singapore,SG,15617.0,GBP,RM-assisted,2026-04-18
+P50115,C2030,Desert Star LLC,UAE,AE,7332.01,HKD,RM-assisted,2026-06-27
+P50116,C2006,Pacific Holdings,Hong Kong,HK,24908.1,SGD,RM-assisted,2026-02-11
+P50117,C2042,Northstar Trading,Singapore,SG,2617.22,GBP,Branch,2026-01-17
+P50118,C2000,Alpine Consulting,Switzerland,CH,62316.79,CHF,RM-assisted,2026-06-24
+P50119,C2045,Redwood Services,UK,GB,35732.55,CHF,RM-assisted,2026-05-20
+P50120,C2010,Northstar Trading,Singapore,SG,5650.63,GBP,RM-assisted,2026-03-15
+P50121,C2011,Desert Star LLC,UAE,AE,34670.18,HKD,Online,2026-01-10
+P50122,C2034,Northstar Trading,Singapore,SG,20815.24,CHF,Online,2026-07-15
+P50123,C2044,Redwood Services,UK,GB,51040.97,CHF,Online,2026-02-12
+P50124,C2014,Northstar Trading,Singapore,SG,60175.43,USD,Online,2026-07-27
+P50125,C2004,Desert Star LLC,UAE,AE,4602.13,GBP,Branch,2026-02-25
+P50126,C2033,Northstar Trading,Singapore,SG,14396.26,CHF,Online,2026-01-18
+P50127,C2004,Alpine Consulting,Switzerland,CH,2122.83,HKD,Branch,2026-04-04
+P50128,C2020,Pacific Holdings,Hong Kong,HK,21438.16,GBP,RM-assisted,2026-02-10
+P50129,C2001,Desert Star LLC,UAE,AE,46602.46,CHF,Branch,2026-06-11
+P50130,C2041,Alpine Consulting,Switzerland,CH,99902.96,USD,Branch,2026-05-27
+P50131,C2002,Northstar Trading,Singapore,SG,28066.05,USD,RM-assisted,2026-06-27
+P50132,C2044,Desert Star LLC,UAE,AE,31274.53,CHF,RM-assisted,2026-02-26
+P50133,C2020,Pacific Holdings,Hong Kong,HK,17308.1,HKD,Online,2026-03-18
+P50134,C2011,Pacific Holdings,Hong Kong,HK,10588.07,HKD,Online,2026-01-11
+P50135,C2019,Alpine Consulting,Switzerland,CH,15279.87,HKD,RM-assisted,2026-07-03
+P50136,C2016,Alpine Consulting,Switzerland,CH,20600.85,USD,Branch,2026-02-05
+P50137,C2005,Pacific Holdings,Hong Kong,HK,59937.09,HKD,RM-assisted,2026-01-06
+P50138,C2013,Northstar Trading,Singapore,SG,12698.66,CHF,Branch,2026-04-13
+P50139,C2002,Desert Star LLC,UAE,AE,17926.05,HKD,RM-assisted,2026-02-02
+P50140,C2017,Desert Star LLC,UAE,AE,17277.71,GBP,Branch,2026-04-02
+P50141,C2003,Pacific Holdings,Hong Kong,HK,9327.26,HKD,RM-assisted,2026-03-12
+P50142,C2026,Pacific Holdings,Hong Kong,HK,14673.61,SGD,Online,2026-02-25
+P50143,C2016,Pacific Holdings,Hong Kong,HK,8481.42,HKD,Online,2026-07-04
+P50144,C2014,Pacific Holdings,Hong Kong,HK,3436.69,USD,Online,2026-01-20
+P50145,C2005,Pacific Holdings,Hong Kong,HK,11150.89,CHF,RM-assisted,2026-03-19
+P50146,C2016,Northstar Trading,Singapore,SG,7089.71,USD,RM-assisted,2026-05-13
+P50147,C2017,Desert Star LLC,UAE,AE,7649.23,HKD,Online,2026-01-02
+P50148,C2023,Alpine Consulting,Switzerland,CH,1075.02,GBP,Online,2026-07-09
+P50149,C2007,Desert Star LLC,UAE,AE,40173.86,USD,RM-assisted,2026-03-26
+P50150,C2044,Pacific Holdings,Hong Kong,HK,40028.55,USD,RM-assisted,2026-06-12
+P50151,C2018,Pacific Holdings,Hong Kong,HK,46298.01,USD,RM-assisted,2026-02-10
+P50152,C2046,Desert Star LLC,UAE,AE,113176.72,USD,Online,2026-02-02
+P50153,C2031,Pacific Holdings,Hong Kong,HK,5142.66,CHF,Online,2026-01-19
+P50154,C2025,Pacific Holdings,Hong Kong,HK,19005.59,HKD,RM-assisted,2026-05-05
+P50155,C2023,Redwood Services,UK,GB,13164.13,USD,RM-assisted,2026-02-08
+P50156,C2047,Alpine Consulting,Switzerland,CH,19484.64,CHF,Online,2026-01-02
+P50157,C2048,Northstar Trading,Singapore,SG,20658.38,CHF,Branch,2026-04-23
+P50158,C2019,Desert Star LLC,UAE,AE,19414.99,CHF,Branch,2026-01-13
+P50159,C2017,Alpine Consulting,Switzerland,CH,123303.94,USD,RM-assisted,2026-04-03
+P50160,C2020,Pacific Holdings,Hong Kong,HK,39061.12,GBP,RM-assisted,2026-06-05
+P50161,C2010,Pacific Holdings,Hong Kong,HK,92721.98,SGD,RM-assisted,2026-03-11
+P50162,C2030,Desert Star LLC,UAE,AE,5083.36,HKD,RM-assisted,2026-03-16
+P50163,C2017,Northstar Trading,Singapore,SG,57826.47,GBP,Branch,2026-05-14
+P50164,C2032,Alpine Consulting,Switzerland,CH,6946.66,HKD,Online,2026-05-01
+P50165,C2013,Northstar Trading,Singapore,SG,13433.14,HKD,RM-assisted,2026-05-16
+P50166,C2027,Desert Star LLC,UAE,AE,9540.05,GBP,Online,2026-05-09
+P50167,C2041,Redwood Services,UK,GB,15238.73,GBP,Online,2026-02-06
+P50168,C2012,Northstar Trading,Singapore,SG,4620.18,CHF,Online,2026-05-09
+P50169,C2048,Pacific Holdings,Hong Kong,HK,6371.37,USD,Branch,2026-07-16
+P50170,C2048,Alpine Consulting,Switzerland,CH,47767.7,CHF,Online,2026-05-04
+P50171,C2012,Redwood Services,UK,GB,16678.99,HKD,Branch,2026-02-16
+P50172,C2020,Pacific Holdings,Hong Kong,HK,5648.07,CHF,RM-assisted,2026-05-20
+P50173,C2043,Redwood Services,UK,GB,53613.5,HKD,Online,2026-01-26
+P50174,C2007,Alpine Consulting,Switzerland,CH,56141.01,HKD,Branch,2026-06-11
+P50175,C2002,Alpine Consulting,Switzerland,CH,15610.84,SGD,Online,2026-06-03
+P50176,C2030,Alpine Consulting,Switzerland,CH,8038.94,GBP,RM-assisted,2026-01-27
+P50177,C2030,Pacific Holdings,Hong Kong,HK,9341.19,CHF,Online,2026-01-05
+P50178,C2019,Redwood Services,UK,GB,11587.5,SGD,Branch,2026-03-12
+P50179,C2011,Desert Star LLC,UAE,AE,22679.3,CHF,RM-assisted,2026-04-20
+P50180,C2003,Northstar Trading,Singapore,CH,35000.0,CHF,Online,2026-04-11
+P50181,C2003,Northstar Trading,Singapore,CH,30000.0,CHF,RM-assisted,2026-04-11
+P50182,C2006,Northstar Trading,Singapore,CH,15000.0,USD,Online,2026-04-11
+P50183,C2003,Desert Star LLC,UAE,AE,25000.0,CHF,Online,2026-04-11

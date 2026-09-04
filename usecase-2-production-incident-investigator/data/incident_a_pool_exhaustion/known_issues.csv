@@ -1,0 +1,9 @@
+issue_id,title,signature,affected_component,notes
+KI-055,Slow checkout page,High page load latency during peak hours,web-frontend,Caused by unoptimized product image loading; fixed in v1.8.2
+KI-088,Duplicate order creation on network retry,order-service can create duplicate orders if a client retries POST /api/orders after a network timeout without an idempotency key,order-service,Fixed in v2.3.8; unrelated to payment gateway timeouts
+KI-093,Search index staleness,Product search results lag behind catalog updates by up to 10 minutes,search-service,Known limitation of the current indexing pipeline; not a bug
+KI-101,ConnectionPoolTimeoutException in payment-gateway-adapter,A ConnectionPoolTimeoutException in payment-gateway-adapter logs is a known signature of an undersized connection pool relative to current traffic; cross-reference against deployment history for any recent pool size change,payment-gateway-adapter,Recurred more than once - see previous incidents; both prior occurrences traced back to a pool size reduction
+KI-114,Notification email formatting glitch,Emails occasionally render with broken HTML in older webmail clients,notification-service,Cosmetic only; template fix scheduled
+KI-121,Refund webhook delay,Refund confirmation webhooks to merchants can lag by several minutes under load,payment-gateway-adapter,Separate from charge processing; does not affect charge success or failure
+KI-130,Login session timeout too aggressive,Users report being logged out after 10 minutes of inactivity,auth-service,By design but frequently reported as a bug; UX review pending
+KI-142,Database failover reconnect delay,order-service returns elevated 500s for several minutes during a database failover event,order-service,Root cause: failover automation does not update the connection string fast enough
