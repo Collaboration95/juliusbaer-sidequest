@@ -35,7 +35,7 @@ jobs:
           curl \
             --fail \
             --request POST \
-            --url https://api.github.com/repos/lalit-aggarwal/payment-investigation-evaluator/dispatches \
+            --url https://api.github.com/repos/Singhacks-2026/jb-sidequest-evaluator-usecase1/dispatches \
             --header "Accept: application/vnd.github+json" \
             --header "Authorization: Bearer $GH_TOKEN" \
             --header "X-GitHub-Api-Version: 2022-11-28" \
