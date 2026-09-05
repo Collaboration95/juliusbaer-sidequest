@@ -1,7 +1,6 @@
 # Deterministic incident investigator
 
-> TODO before submitting: replace this line with your name, phone number,
-> and email. The brief grades this README alongside the code.
+**Participant:** guruprasath gopal · **Phone:** 8741 6283 · **Email:** guruprasath3200@gmail.com
 
 ## Understanding of the problem
 
