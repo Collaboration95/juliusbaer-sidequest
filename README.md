@@ -1,5 +1,11 @@
 # Julius Baer AI Hackathon — jb-sidequest
 
+<p align="center">
+  <img src="repo-qr-code.png" alt="Scan to open this repo" width="200">
+  <br>
+  <sub>Scan to open this repo on your phone</sub>
+</p>
+
 ## Overview
 
 Two use cases, both manually evaluated. Read each use case's own
@@ -206,3 +212,5 @@ use case 2) before trusting a first pass.
 ---
 
 Good luck!
+
+
